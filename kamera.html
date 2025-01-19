@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kamera</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen flex flex-col">
+  <!-- Header -->
+  <div class="bg-[#19456B] text-white rounded-b-3xl p-6 flex items-center">
+    <!-- Back Arrow -->
+    <button class="mr-4">
+      <a href="rekamwajah.html">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path>
+        </svg>
+      </a>
+    </button>
+    <h1 class="text-xl font-semibold">Kamera</h1>
+  </div>
+
+  <!-- Content -->
+  <div class="flex-1 flex flex-col items-center justify-center px-4">
+    <div class="w-64 h-64 border-2 border-dashed border-gray-400 rounded-lg flex items-center justify-center mb-6">
+      <!-- Placeholder Foto -->
+      <div class="w-60 h-60 bg-gray-300 rounded-lg"></div>
+    </div>
+    <button class="py-2 px-6 bg-[#19456B] text-white rounded-lg hover:bg-[#123C5B]">
+      Ambil Foto
+    </button>
+  </div>
+</body>
+
+</html>
